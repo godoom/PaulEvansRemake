@@ -1,0 +1,210 @@
+body{
+	margin: 0;
+	
+}
+header{
+	display: inline-block;
+	width: 100%;
+	background: white;
+	color: black;
+	font-family: arial;
+}
+header h1{
+	margin: 0;
+	display: inline;
+	float: left;
+	width: 58%;
+	text-align: center;
+	font-size: 25px;
+	padding: 25px 0px;
+}
+nav{
+	width: 100%;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+nav ul .left{
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	width: 7%;
+	font-size: 11px;
+	text-align: center;
+	padding: 39px 0px;
+}
+nav ul .right{
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	width: 7%;
+	font-size: 11px;
+	text-align: center;
+	padding: 39px 0px;
+}
+header nav ul .left a:link, a:visited{
+	color: #2d2d2d;
+	text-decoration: none;
+}
+header nav ul .left a:hover, a:active{
+	color: #444444;
+	text-decoration: none;
+}
+header nav ul .right a:link, a:visited{
+	color: #2d2d2d;
+	text-decoration: none;
+}
+header nav ul .right a:hover, a:active{
+	color: #444444;
+	text-decoration: none;
+}
+
+
+
+
+
+body h1.content{
+	float: left;
+	text-align: center;
+	font-size: 19px;
+	width: 100%;
+	padding-top: 75px;
+	font-weight: 100;
+	font-family: arial;
+	margin: 0;
+	color: black;
+}
+body h2.content{ 
+	float: left;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 20px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-family: arial;
+	font-weight: 100;
+	margin: 0;
+
+}
+body .row{
+	clear: both;
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	width: 100%;
+	margin: 12.5%;
+}
+body .row h1{
+	font-size: 19px;
+}
+body .row .col{
+	float: left;
+	display: inline;
+	width: 25%;
+	text-align: center;
+}
+
+body .row .col p.item{
+	font-size: 19px;
+	color: #727171;
+}
+body .row .col p.colors{
+	font-size: 14px;
+	color: #727171;
+}
+body .row .col p.price{
+	font-size: 14px;
+	color: #727171;
+}
+body h3.row{
+	display: inline-block;
+	margin: 0;
+}
+body h3.row div.col{
+	float: left;
+	width: 34%;
+	margin: 8%;
+	text-align: center;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: 100;
+	color: #727171;
+}
+body h3.row div.col p.head{
+
+	font-size: 16px;
+	font-weight: 600;
+}
+body h3.row div.col p.bottom{
+	font-weight: 600;
+}
+
+body h4.row{
+	display: inline-block;
+	margin: 100px 0px;
+}
+body h4.row div.col{
+	display: inline-block;
+	width: 48%;
+	margin-left: 1%;
+	padding: 0;
+}
+body h4.row div.column{
+	display: inline-block;
+	width: 34.308%;
+	background: #515151;
+	color: #f7f7f7;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: 100;
+	text-align: left;
+	padding: 101px 100px;
+	margin-right: 1%;
+}
+body h4.row div.column p.blog{
+	font-size: 20px;
+	color: grey;
+}
+body h4.row div.column p.shoecare{
+	font-size: 20px;
+	color: white;
+}
+body h4.row div.column p.info{
+	color: #adadad;
+}
+body h4.row div.column p.read{
+	color: white;
+}
+
+
+
+body footer{
+	display: inline-block;
+	background: #515151;
+	width: 100%;
+	margin: 0px;
+	padding: 50px 0px 100px 0px;
+}
+body footer div.col{
+	
+	
+	color: #f7f7f7;
+	float: left;
+	width: 32%;
+	padding-left: 16.67px;
+	font-size: 12px;
+	font-family: arial;
+	
+}
+
+body footer div.col h1{
+	
+
+	font-size: 13px;
+	font-family: arial;
+	padding-bottom: 12px;
+	
+}
